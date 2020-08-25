@@ -4,8 +4,6 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.ListIterator;
-
 import be.grangier.dao.ArbitreDAO;
 import be.grangier.dao.CourtDAO;
 import be.grangier.dao.DAO;
@@ -14,7 +12,8 @@ import be.grangier.dao.ProjetConnection;
 
 
 
-public class Ordonnancement {
+public class Ordonnancement 
+{
 	private ArrayList<Joueur> aj;
 	private ArrayList<Arbitre> aa;
 	private ArrayList<Court> ac;
