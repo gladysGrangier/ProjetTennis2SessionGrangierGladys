@@ -1,7 +1,6 @@
 package be.grangier.view;
 
-import java.awt.BorderLayout;
-import java.awt.EventQueue;
+
 import java.awt.List;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -12,8 +11,6 @@ import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
 import be.grangier.poco.Tournois;
-import javax.swing.JTextField;
-import javax.swing.JTextPane;
 import javax.swing.JLabel;
 
 
@@ -52,7 +49,7 @@ public class JframeHF extends JFrame
 		
 		
 		
-		JButton btn_retourAcceuil = new JButton("Acceuil");
+		JButton btn_retourAcceuil = new JButton("Accueil");
 		btn_retourAcceuil.setBounds(183, 24, 97, 25);
 		
 		btn_retourAcceuil.addActionListener(new ActionListener() 

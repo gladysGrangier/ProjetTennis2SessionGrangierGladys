@@ -156,7 +156,7 @@ public class JframeBracket extends JFrame
 		contentPane.add(btn_groupe2eme);
 		contentPane.add(btn_groupefinal);
 
-		JButton btn_retourAcceuil = new JButton("Acceuil");
+		JButton btn_retourAcceuil = new JButton("Accueil");
 		btn_retourAcceuil.setBounds(10, 327, 97, 25);
 		
 		btn_retourAcceuil.addActionListener(new ActionListener() 

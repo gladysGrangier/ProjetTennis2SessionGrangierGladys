@@ -1,7 +1,6 @@
 package be.grangier.view;
 
-import java.awt.BorderLayout;
-import java.awt.EventQueue;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -9,8 +8,6 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
-
-import be.grangier.poco.Ordonnancement;
 import be.grangier.poco.Tournois;
 
 public class JframeSolo extends JFrame 
@@ -66,7 +63,7 @@ public class JframeSolo extends JFrame
 		contentPane.add(btn_matchFemme);
 		
 		
-		JButton btn_retourAcceuil = new JButton("Acceuil");
+		JButton btn_retourAcceuil = new JButton("Accueil");
 		btn_retourAcceuil.setBounds(10, 225, 110, 25);
 		
 		btn_retourAcceuil.addActionListener(new ActionListener() 

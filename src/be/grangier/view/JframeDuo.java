@@ -1,7 +1,6 @@
 package be.grangier.view;
 
-import java.awt.BorderLayout;
-import java.awt.EventQueue;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -77,7 +76,7 @@ public class JframeDuo extends JFrame
 		contentPane.add(btn_matchDuoMix);
 		
 		
-		JButton btn_retourAcceuil = new JButton("Acceuil");
+		JButton btn_retourAcceuil = new JButton("Accueil");
 		btn_retourAcceuil.setBounds(10, 225, 110, 25);
 		
 		btn_retourAcceuil.addActionListener(new ActionListener() 

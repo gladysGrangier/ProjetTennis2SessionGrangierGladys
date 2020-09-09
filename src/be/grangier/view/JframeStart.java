@@ -1,6 +1,6 @@
 package be.grangier.view;
 
-import java.awt.BorderLayout;
+
 import java.awt.EventQueue;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -53,10 +53,10 @@ public class JframeStart extends JFrame
 		JframeStart thisframe = this;
 		
 		//Boutons
-		JButton btn_launcher = new JButton("Lancer le tournois");
+		JButton btn_launcher = new JButton("Lancer le tournoi");
 		JButton btn_partiesolo = new JButton("Match solo");
 		JButton btn_partieduo = new JButton("Match duo");
-		JButton btn_partiemix = new JButton("Match mix");
+		JButton btn_partiemix = new JButton("Match mixte");
 		JButton btn_joueur = new JButton("Liste des participants");
 		
 		btn_launcher.addActionListener(new ActionListener()
