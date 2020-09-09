@@ -199,7 +199,7 @@ public class Ordonnancement
 	}
 	
 
-	public void startBracket() 
+	public void startOrdonnancement() 
 	{
 		//ListIterator<Equipe> bracket = ae.listIterator(); // on supprime au fur et à mesure les joueurs du bracket 
 		//int tour=1;
