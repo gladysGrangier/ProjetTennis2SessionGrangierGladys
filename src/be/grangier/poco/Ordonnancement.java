@@ -33,7 +33,7 @@ public class Ordonnancement
 		loadListArbitres();
 		loadListCourts();
 		creationEquipes();
-		if(type == "doubleMessieurs" || type == "doubleMessieurs" )
+		if(type == "doubleMonsieurs" || type == "doubleMessieurs" )
 		{
 			date = LocalDateTime.of(2020, 5, 18, 8, 0).plusDays(10);
 		}
@@ -95,11 +95,11 @@ public class Ordonnancement
 		ArrayList<Joueur> a = new ArrayList<Joueur>();
 		int possition =0;
 		//int conteur = 0;
-		if(type == "messieurs" || type == "dames")
+		if(type == "monsieur" || type == "dames")
 		{		
 			tab = new Equipe[8][];
 			tab[0]=new Equipe[128];
-			if(type == "messieurs")
+			if(type == "monsieur")
 			{
 				//aj= tous les joueurs
 				//ajout tous les joueurs M
@@ -138,7 +138,7 @@ public class Ordonnancement
 		{
 			tab = new Equipe[7][];
 			tab[0]=new Equipe[64];
-			if(type == "doubleMessieurs")
+			if(type == "doubleMonsieurs")
 			{
 				for(Joueur j : aj) {
 					if(j.getSexe().equals("m"))a.add(j);

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class Tournois {
 	private String nom;
-	private String tableautype[] = {"messieurs", "dames","doubleMessieurs" , "doubleDames","doubleMixte" };
+	private String tableautype[] = {"monsieur", "dames","doubleMonsieurs" , "doubleDames","doubleMixte" };
 	private ArrayList<Ordonnancement> ao = new ArrayList<Ordonnancement>();
 	
 	
@@ -16,7 +16,7 @@ public class Tournois {
 		for(int i = 0 ; i <getTableauChaine().length;i++)
 		{
 			
-			if(getTableauChaine()[i].contains("messieurs")) // 12
+			if(getTableauChaine()[i].contains("monsieur")) // 12
     		{
 				ao.add(new Ordonnancement(getTableauChaine()[i],3));
     		}
