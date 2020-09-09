@@ -41,8 +41,8 @@ public class Ordonnancement
 		{
 			date = LocalDateTime.of(2020, 5, 18, 8, 0).plusDays(20);
 		}
-		this.date=date;
-		this.tab=tab;
+		//this.date=date;
+		//this.tab=tab;
 	}
 	
 	public ArrayList<Equipe> getAe() 
@@ -94,7 +94,7 @@ public class Ordonnancement
 		Collections.shuffle(aj); // mélange aléatoire de la liste des joueurs
 		ArrayList<Joueur> a = new ArrayList<Joueur>();
 		int possition =0;
-		int conteur = 0;
+		//int conteur = 0;
 		if(type == "messieurs" || type == "dames")
 		{		
 			tab = new Equipe[8][];
@@ -202,7 +202,7 @@ public class Ordonnancement
 	public void startBracket() 
 	{
 		//ListIterator<Equipe> bracket = ae.listIterator(); // on supprime au fur et à mesure les joueurs du bracket 
-		int tour=1;
+		//int tour=1;
 		int flag; // court et arbitre
 		int compteur=0; // nbr matchs joués
 		int limite;
@@ -223,7 +223,7 @@ public class Ordonnancement
 		//simple ou double --> gerer le premier [] tab
 		limite = (tab[0].length>64)? 7:6; // nbr tours varie en fonction du nombre d'equipes !
 		
-		int cont =0;
+		//int cont =0;
 				int start = 0,solo ,position;
 				//obliger car [0] est deja pris
 				for (int i = 1; i <limite + 1; i++) 
