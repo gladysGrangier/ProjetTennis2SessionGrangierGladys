@@ -66,7 +66,7 @@ public class JframeStart extends JFrame
 			{
 				t = new Tournois("tournois");
 
-					t.startAllBrackets();
+					t.startAllOrdonnancement();
 					
 					btn_launcher.setVisible(false);
 					btn_partiesolo.setVisible(true);
