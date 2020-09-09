@@ -52,11 +52,11 @@ public class Tournois {
 	}
 	
 	
-	public void startAllBrackets() 
+	public void startAllOrdonnancement() 
 	{
 		for(Ordonnancement o : ao) 
 		{
-			o.startBracket();			
+			o.startOrdonnancement();			
 		}
 	}
 }
